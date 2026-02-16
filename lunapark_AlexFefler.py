@@ -1,0 +1,6 @@
+firstName = input("Enter your first name: ")
+lastName = input("Enter your last name: ")
+h = input("Enter your height in cm: ")
+age = input("Enter your age: ")
+b4 = (int(h) >= 120 and int(h) <= 150 and int(age) <= 12 and int(age) >= 6)
+print("Can you get on the roller coaster? " + str(b4))

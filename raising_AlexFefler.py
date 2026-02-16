@@ -1,0 +1,5 @@
+num1 = input("Enter 1 number: ")
+num2 = input("Enter 2 number: ")
+num3 = input("Enter 3 number: ")
+b2 = (num1<num2)&(num2<num3)
+print(str(b2))
